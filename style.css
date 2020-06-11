@@ -40,6 +40,48 @@ body {
    text-align: center;
 }
 
+/* Animations classes */
+
+.fade-from-right {
+   animation-name: fade-from-right;
+   animation-fill-mode: both;
+   animation-duration: 1s;
+   animation-timing-function: ease;
+   animation-delay: 0.5s;
+}
+
+.fade-from-left {
+   animation-name: fade-from-left;
+   animation-fill-mode: both;
+   animation-duration: 1s;
+   animation-timing-function: ease;
+   animation-delay: 1s;
+}
+
+/* Animations */
+
+@keyframes fade-from-right {
+   from {
+      margin-left: 200px;
+      opacity: 0;
+   }
+   to {
+      margin-left: 0;
+      opacity: 100%;
+   }
+}
+
+@keyframes fade-from-left {
+   from {
+      margin-right: 200px;
+      opacity: 0;
+   }
+   to {
+      margin-right: 0;
+      opacity: 100%;
+   }
+}
+
 /* Navigation bar */
 
 #navbar {
