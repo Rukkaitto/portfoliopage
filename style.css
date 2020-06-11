@@ -25,18 +25,15 @@ body {
 #navbar {
    background-color: var(--navbar-color);
    position: fixed;
-   top: 0;
    width: 100%;
    display: flex;
    flex-direction: row;
-   justify-content: flex-end;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 #nav-items {
    list-style: none;
    display: flex;
-   flex-direction: row;
    align-items: center;
    margin: 0 2rem;
    width: 100%;
@@ -75,7 +72,6 @@ body {
    background: #FF416C;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   width: 100%;
    height: 100vh;
    text-align: center;
 }
@@ -99,7 +95,6 @@ body {
    background: #FF416C;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   width: 100%;
    height: 100vh;
    text-align: center;
 }
@@ -116,7 +111,6 @@ a.anchor {
    display: flex;
    flex-direction: column;
    align-items: center;
-   font-size: 1rem;
    text-align: center;
 }
 
@@ -132,9 +126,6 @@ a.anchor {
    background-color: var(--navbar-color);
    display: flex;
    flex-direction: column;
-   align-items: center;
-   width: auto;
-   height: auto;
    text-decoration: none;
    color: var(--text-color);
    transition: transform .2s ease;
