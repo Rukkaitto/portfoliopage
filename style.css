@@ -48,6 +48,7 @@ body {
    animation-duration: 1s;
    animation-timing-function: ease;
    animation-delay: 0.5s;
+   white-space: nowrap;
 }
 
 .fade-from-left {
@@ -56,6 +57,7 @@ body {
    animation-duration: 1s;
    animation-timing-function: ease;
    animation-delay: 1s;
+   white-space: nowrap;
 }
 
 /* Animations */
